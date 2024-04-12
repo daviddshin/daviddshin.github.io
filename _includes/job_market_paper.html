@@ -13,6 +13,9 @@
       <p id="jmpAbstract" style="display:none;">
         {{ site.data.data.job_market_paper.summary }}
       </p>
+      {% if paper.pdf %}
+      <a href="{{ paper.pdf }}" target="_blank">[Paper]</a>
+      {% endif %}
     </div><!--//details-->
   </div><!--//item-->
 </section><!--//section-->
