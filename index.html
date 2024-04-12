@@ -2,22 +2,16 @@
 layout: default
 ---
 
-
-{% include career-profile.html %}
+{% include about_me.html %}
 
 {% unless site.data.data.sidebar.education %}
   {% include education.html %}
 {% endunless %}
 
+{% include job_market_paper.html %}
+
+{% include working_papers.html %}
+
+{% include works_in_progress.html %}
+
 {% include experiences.html %}
-
-{% include certifications.html %}
-
-{% include projects.html %}
-
-{% include oss-contributions.html %}
-
-{% include publications.html %}
-
-{% include skills.html %}
-

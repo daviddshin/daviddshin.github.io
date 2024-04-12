@@ -1,0 +1,20 @@
+<section class="section works-in-progress-section">
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-spinner fa-stack-1x fa-inverse"></i> <!-- Suitable icon for Works in Progress -->
+    </span>
+    Works in Progress
+  </h2>
+  {% for work in site.data.data.works_in_progress %}
+  <div class="item">
+    <h3 class="job-title">{{ work.title }}</h3>
+    <div class="details">
+      <a href="#" onclick="toggleAbstract('wipAbstract{{ forloop.index }}'); return false;">[Abstract]</a>
+      <p id="wipAbstract{{ forloop.index }}" style="display:none;">
+        {{ work.summary }}
+      </p>
+    </div><!--//details-->
+  </div><!--//item-->
+  {% endfor %}
+</section><!--//section-->
