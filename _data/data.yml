@@ -129,4 +129,9 @@ working_papers:
 
 works_in_progress:
   - title: "Commodities Trade Fragmentation and Market Power"
+    coauthors:
+      - name: "Chiara Maggi"
+        url: "https://sites.google.com/view/cmaggi/"
+      - name: "Alexandre Sollaci"
+        url: "https://sites.google.com/view/alexandresollaci/home"
     summary: "Amid escalating tensions between the US and China, coupled with the conflict in Ukraine, concerns over the trade fragmentation of commodities intensified. This paper presents a novel framework to evaluate the potential welfare losses resulting from such fragmentation, with a focus on the unique characteristics of commodities, including their high geographical concentration, upstream nature, and limited substitutability.  Using a quantitative general equilibrium model incorporating international trade, firm heterogeneity, variable markups, inter-sectoral linkages, and unique commodity characteristics, we assess the welfare implications of hypothetical persistent disruptions in commodity trade between hypothetical US and China blocs. The model delivers five distinct welfare costs arising from commodity trade fragmentation: (i) declining foreign demand, (ii) increased imported input costs, (iii) competition-driven productivity reduction, (iv) a decline in the number of upstream suppliers, and (v) the increased market power of regional suppliers. We find that the reduction in upstream suppliers and the concurrent rise in regional market power significantly amplify the welfare costs associated with commodity trade fragmentation."
