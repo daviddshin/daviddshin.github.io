@@ -17,6 +17,9 @@
       {% if paper.pdf %}
       <a href="{{ paper.pdf }}" target="_blank">[Paper]</a>
       {% endif %}
+      {% if paper.Presentation %}
+      <p><strong>Presentation:</strong> {{ paper.Presentation }}</p>
+      {% endif %}
     </div><!--//details-->
   </div><!--//item-->
   {% endfor %}
