@@ -24,8 +24,8 @@ sidebar:
     title: Research Interests
     info:
       - item: International Economics
-      - item: Macroeconomics
       - item: Environmental Economics
+      - item: Macroeconomics
 
   # References
   references:
@@ -112,7 +112,7 @@ about_me:
   content: "I am a PhD candidate in Economics at Duke University. I will be on the job market during the 2024-2025 academic year."
 
 job_market_paper:
-  title: "Constrained Optimal Environmental Policies in an Interdependent World"
+  title: "Environmental Policies in an Open Economy under Imperfect Labor and Capital Mobility"
   summary: "Coming Soon!"
 
 working_papers:
