@@ -23,6 +23,13 @@
       <p id="wipAbstract{{ forloop.index }}" style="display:none;">
         {{ work.summary }}
       </p>
+      {% if work.pdf %}
+      <a href="{{ work.pdf }}" target="_blank">[Paper]</a>
+      {% endif %}
+      {% if work.Presentation %}
+      <br>
+      <p><strong>Presentation:</strong> {{ work.Presentation }}</p>
+      {% endif %}
     </div><!--//details-->
   </div><!--//item-->
   {% endfor %}
