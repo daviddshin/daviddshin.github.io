@@ -57,6 +57,11 @@ education:
 experiences:
   title: Experiences
   info:
+    - role: PhD Graduate Assistant
+      time: August 2021 - Present
+      company: Duke University
+      location: Durham, NC
+      details: Research Assistant to Professor Rafael Dix-Carneiro
     - role: Dissertation Fellow
       time: August 2024
       company: Federal Reserve Bank of St. Louis
@@ -67,11 +72,6 @@ experiences:
       company: Federal Reserve Bank of New York
       location: New York, NY
       details: Dissertation Research
-    - role: PhD Graduate Assistant
-      time: August 2021 - Present
-      company: Duke University
-      location: Durham, NC
-      details: Research Assistant to Professor Rafael Dix-Carneiro
     - role: Fund Internship Program (FIP)
       time: June 2023 - September 2023
       company: International Monetary Fund (IMF)
