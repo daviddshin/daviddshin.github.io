@@ -7,40 +7,80 @@ title: Teaching
   <h1 class="section-title">Teaching Experience</h1>
   <p>{{ site.data.data.teaching.description }}</p>
   
+  <!-- Teaching Assistant Section -->
   <div class="teaching-assistant">
     <h3>Teaching Assistant</h3>
     <ul>
       {% for experience in site.data.data.teaching.experiences %}
       <li>
-        <strong>{{ experience.course }}</strong> ({{ experience.term }}) - <em>{{ experience.role }}</em><br>
-        Taught at Duke University. {{ experience.details }}
+        <strong>{{ experience.course }}</strong> ({{ experience.term }})<br>
+        {{ experience.details }}
       </li>
       {% endfor %}
     </ul>
   </div>
   
+  <!-- Teaching Statement Section -->
   <div class="teaching-statement">
     <h3>Teaching Statement</h3>
     <p id="teachingStatementPreview">
-      My teaching philosophy emphasizes real-world applications of economics, effective communication, and tailored support for diverse learners. Click below to expand the full statement.
+      My teaching statement summarizes my philosophy and approach to teaching economics. Click the button below to read the full statement.
     </p>
     <button onclick="toggleContent('teachingStatementContent')">Read Full Statement</button>
     <p id="teachingStatementContent" style="display: none;">
-      As an educator in international trade, macroeconomics, and environmental economics, my primary goal is to encourage students to become active learners who are intellectually curious about real-world problems. I strive to equip students from diverse backgrounds with tools to approach these problems using logical reasoning, empirical evidence, and sound methodology. My experience as a TA at Duke University and my participation in the Certificate in College Teaching program have been instrumental in shaping my teaching practices.
+      <strong>Teaching Statement</strong><br><br>
+      As an educator in international trade, macroeconomics, and environmental economics, my primary goal is to encourage students to become active learners who are intellectually curious about real-world problems. I strive to equip students from diverse backgrounds and experiences with the tools necessary to approach these problems using logical reasoning, empirical evidence, and sound methodology.
+      <br><br>
+      <strong>Relevance and Real-World Application of Economics:</strong> The first step to meaningful and lasting learning is helping students recognize the value of the material beyond fulfilling a course requirement. When I served as a teaching assistant for PhD-level macroeconomics, I emphasized key concepts like general equilibrium, consumption smoothing, and income and substitution effects that are widely applicable across different fields. I also focused on techniques that are valuable beyond macroeconomics, such as first-order Taylor approximation and numerically solving structural models using MATLAB.
+      <br><br>
+      <strong>Clear and Effective Communication:</strong> Effective communication is central to effective teaching. Based on my experiences as a student, teaching assistant, and seminar presenter, I have come to realize that even the most valuable knowledge can appear dull if presented poorly. To refine my communication skills, I enrolled in Duke University’s Certificate in College Teaching (CCT) program, which emphasizes best practices in teaching and learning.
+      <br><br>
+      <strong>Tailored Support for Diverse Learners:</strong> Finally, I believe it is crucial that every student in my class understands the key takeaways, regardless of their background or prior knowledge. This belief stems from my own experience as a first-year PhD student who initially struggled with coursework. With targeted support, I was able to overcome these challenges and now strive to provide the same level of support to my students.
+      <br><br>
+      Having been a student for over a decade, I have experienced the transformative power of effective teaching, and I firmly believe it can change students’ academic trajectories. My goal as an educator is to equip students with the knowledge and skills necessary for success in both their careers and personal lives.
     </p>
   </div>
   
+  <!-- Teaching Evaluation Section -->
   <div class="teaching-evaluation">
     <h3>Teaching Evaluation</h3>
     <p>
-      Feedback from students highlights my ability to clarify complex concepts, provide useful intuition, and create an engaging learning environment. Students consistently praised my patience, clarity, and dedication to their learning.
+      My teaching evaluations reflect positive feedback from students regarding my effectiveness as a teaching assistant for PhD-level courses. Below are categorized comments highlighting my strengths and areas of excellence.
     </p>
-    <button onclick="toggleContent('evaluationSummaryContent')">Read More</button>
-    <p id="evaluationSummaryContent" style="display: none;">
-      Specific comments include:
-      - "David is very smart on the solving techniques of some problems and can provide useful intuition."
-      - "David did a great job explaining the key details and ideas behind the problem sets."
-      - "Super patient and helpful. Clarified my understanding for course material."
+    
+    <!-- Clarity and Intuition -->
+    <h4>Clarity and Intuition</h4>
+    <ul>
+      <li>"David is very smart on the solving techniques of some problems and can provide useful intuition such as the Hamiltonian equation."</li>
+      <li>"David Shin’s TA sessions were very useful. He helped us understand not only how to solve the exercises but also the economic intuition behind them."</li>
+      <li>"David did a great job explaining the key details and ideas behind the course and problem sets."</li>
+    </ul>
+
+    <!-- Preparation and Organization -->
+    <h4>Preparation and Organization</h4>
+    <ul>
+      <li>"I liked how you prepared the slides for the problem sets and focused on the key ideas."</li>
+      <li>"Well-prepared with clear slides."</li>
+      <li>"David contributed greatly to our learning in the course and was well-prepared for the sessions."</li>
+    </ul>
+
+    <!-- Patience and Approachability -->
+    <h4>Patience and Approachability</h4>
+    <ul>
+      <li>"Super patient and helpful. Clarified my understanding of course material."</li>
+      <li>"David was very friendly and welcoming to first-year students. He always made a point to ask about how we were doing."</li>
+      <li>"David’s approachable demeanor and encouragement made learning more enjoyable and less intimidating."</li>
+    </ul>
+
+    <!-- Effectiveness and Knowledge -->
+    <h4>Effectiveness and Knowledge</h4>
+    <ul>
+      <li>"David was very knowledgeable and could almost always answer students' questions."</li>
+      <li>"He was hardworking and dedicated."</li>
+    </ul>
+
+    <p>
+      For detailed feedback, download the full teaching evaluation report below:
     </p>
     <a href="/assets/files/ShinDavid_TeachingEvaluation.pdf" target="_blank" class="button">Download Full Evaluation</a>
   </div>
