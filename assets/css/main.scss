@@ -19,7 +19,7 @@ $sidebar-order: 2;
 
 // Additional styles for the sidebar's references section
 .references-section {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .references-list {
@@ -33,29 +33,48 @@ $sidebar-order: 2;
   font-size: 14px; /* Optional: adjust the font size as needed */
 }
 
+// General Section Title Styling
 .section-title {
   font-size: 2rem;
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-.teaching-evaluation h4 {
-  font-size: 1.2rem;
-  color: #007bff;
+// Styling for Teaching Page Sections
+.teaching-assistant h2,
+.teaching-statement h2,
+.teaching-evaluation h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.teaching-evaluation h3,
+.teaching-statement h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
   margin-top: 15px;
 }
 
-.teaching-evaluation ul {
+.teaching-evaluation ul,
+.teaching-statement ul,
+.teaching-assistant ul {
   list-style-type: disc;
   margin-left: 20px;
-}
-
-.teaching-evaluation p, .teaching-evaluation li {
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
-.teaching-evaluation .button {
+.teaching-evaluation p,
+.teaching-statement p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+// Button Styling
+.teaching-evaluation .button,
+.teaching-statement .button {
   display: inline-block;
   padding: 10px 15px;
   background-color: #007bff;
@@ -65,7 +84,7 @@ $sidebar-order: 2;
   margin-top: 10px;
 }
 
-.teaching-evaluation .button:hover {
+.teaching-evaluation .button:hover,
+.teaching-statement .button:hover {
   background-color: #0056b3;
 }
-
