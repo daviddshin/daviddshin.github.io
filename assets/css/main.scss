@@ -35,48 +35,80 @@ $sidebar-order: 2;
 
 // General Section Title Styling
 .section-title {
-  font-size: 2.4rem; /* Main section title (e.g., "Teaching") */
+  font-size: 2.4rem; /* Main section title */
   font-weight: bold;
   margin-bottom: 25px;
 }
 
-// Subsection Titles (e.g., "Teaching Assistant", "Teaching Evaluation")
+// Subsection Titles (e.g., "Clarity and Intuition")
 .teaching-assistant h2,
 .teaching-statement h2,
 .teaching-evaluation h2 {
-  font-size: 1.8rem; /* Keep these titles smaller than the main section title */
+  font-size: 1.8rem; /* Subsection titles remain distinct but smaller than main title */
   font-weight: bold;
   margin-bottom: 20px;
 }
 
-// Subsection Descriptions (e.g., "My teaching statement...") 
+.teaching-evaluation h3 {
+  font-size: 1.5rem; /* Smaller font for feedback categories */
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 15px; /* Balanced spacing */
+}
+
+// Larger Text for Descriptions and Summaries
 .teaching-assistant p,
 .teaching-statement p,
 .teaching-evaluation p {
-  font-size: 1.2rem; /* Slightly larger for better readability */
-  line-height: 1.6;
+  font-size: 1.2rem; /* Larger font for description text */
+  line-height: 1.6;  /* Adequate spacing for readability */
   margin-bottom: 15px;
-}
-
-// Bullet Points with Larger Spacing
-.teaching-assistant ul,
-.teaching-evaluation ul {
-  list-style-type: none; /* Remove default bullets */
-  margin-left: 0;
-  padding-left: 20px; /* Indentation for custom bullets */
-  margin-bottom: 25px; /* Add larger spacing between bullet points */
-}
-
-.teaching-assistant ul li::before {
-  content: "• "; /* Add custom bullet */
-  color: #007bff;
-  font-size: 1.4rem; /* Adjust bullet size */
-  margin-right: 5px;
 }
 
 .teaching-assistant ul li,
 .teaching-evaluation ul li {
-  font-size: 1.1rem; /* Keep descriptions smaller */
-  line-height: 1.8; /* Add vertical spacing for readability */
-  margin-bottom: 15px; /* Spacing between bullet points */
+  font-size: 1.2rem; /* Slightly larger font for list items */
+  line-height: 1.6;  /* Balanced spacing between lines */
+  margin-bottom: 10px; /* Smaller spacing between list items */
 }
+
+// Bullet Points with Custom Style
+.teaching-assistant ul,
+.teaching-evaluation ul {
+  list-style-type: disc; /* Standard bullet style */
+  margin-left: 20px; /* Slight indentation */
+  padding-left: 0;
+}
+
+// Highlighted Quotes or Feedback
+.teaching-evaluation ul li::before {
+  content: "“"; /* Open quote mark */
+  font-size: 1.5rem; /* Slightly larger size */
+  margin-right: 5px;
+  color: #007bff; /* Blue highlight */
+}
+.teaching-evaluation ul li::after {
+  content: "”"; /* Close quote mark */
+  font-size: 1.5rem;
+  margin-left: 5px;
+  color: #007bff;
+}
+
+// Button Styling
+.teaching-evaluation .button,
+.teaching-statement .button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1rem; /* Match button text size with paragraph text */
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.teaching-evaluation .button:hover,
+.teaching-statement .button:hover {
+  background-color: #0056b3;
+}
+
