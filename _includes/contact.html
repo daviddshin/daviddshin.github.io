@@ -1,14 +1,14 @@
 <div class="contact-container container-block">
   <ul class="list-unstyled contact-list">
 
-    {% if sidebar.pdf %}
-    <li class="pdf"><i class="fas fa-file-pdf"></i> <a href="{{ site.baseurl }}{{ sidebar.pdf }}" target="_blank">CV</a></li>
-    {% endif %}
-
     <!-- Add the Teaching link -->
     <li class="teaching"><i class="fas fa-chalkboard-teacher"></i> 
       <a href="{{ site.baseurl }}/teaching.html">Teaching</a>
     </li>
+    
+    {% if sidebar.pdf %}
+    <li class="pdf"><i class="fas fa-file-pdf"></i> <a href="{{ site.baseurl }}{{ sidebar.pdf }}" target="_blank">CV</a></li>
+    {% endif %}
 
     {% if sidebar.email %}
     <li class="email"><i class="fas fa-envelope"></i>
