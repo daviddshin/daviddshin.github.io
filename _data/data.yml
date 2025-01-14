@@ -133,3 +133,37 @@ works_in_progress:
         url: "https://sites.google.com/view/alexandresollaci/home"
     summary: "Amid escalating tensions between the US and China, coupled with the conflict in Ukraine, concerns over the trade fragmentation of commodities intensified. This paper presents a novel framework to evaluate the potential welfare losses resulting from such fragmentation, with a focus on the unique characteristics of commodities, including their high geographical concentration, upstream nature, and limited substitutability.  Using a quantitative general equilibrium model incorporating international trade, firm heterogeneity, variable markups, inter-sectoral linkages, and unique commodity characteristics, we assess the welfare implications of hypothetical persistent disruptions in commodity trade between hypothetical US and China blocs. The model delivers five distinct welfare costs arising from commodity trade fragmentation: (i) declining foreign demand, (ii) increased imported input costs, (iii) competition-driven productivity reduction, (iv) a decline in the number of upstream suppliers, and (v) the increased market power of regional suppliers. We find that the reduction in upstream suppliers and the concurrent rise in regional market power significantly amplify the welfare costs associated with commodity trade fragmentation."
     Presentation: "International Monetary Fund 2023; Duke University 2023"
+
+teaching:
+  title: "Teaching Experience"
+  description: >
+    My teaching experience includes assisting in PhD-level courses and providing tailored support to students to enhance their learning. Below are details about my teaching contributions, philosophy, and materials.
+  experiences:
+    - course: "Macroeconomic Analysis I (PhD)"
+      term: "Fall 2020"
+      role: "Teaching Assistant"
+      details: >
+        Assisted Professors Craig Burnside and Cosmin Ilut. Led problem-solving sessions, held office hours, and graded problem sets and exams.
+    - course: "Macroeconomic Analysis II (PhD)"
+      term: "Spring 2021"
+      role: "Teaching Assistant"
+      details: >
+        Assisted Professors Andrea Lanteri and Francesco Bianchi. Led problem-solving sessions, held office hours, and graded problem sets and exams.
+    - course: "International Trade (PhD)"
+      term: "Spring 2024, Fall 2025"
+      role: "Graduate Assistant"
+      details: >
+        Assisted Professor Rafael Dix-Carneiro in grading problem sets and exams.
+  materials:
+    - title: "Teaching Statement"
+      file: "/assets/files/ShinDavid_TeachingStatement.pdf"
+    - title: "Summary of Teaching Evaluations"
+      file: "/assets/files/ShinDavid_SummaryTeachingEvaluations.pdf"
+    - title: "Detailed Teaching Evaluations"
+      file: "/assets/files/ShinDavid_TeachingEvaluation.pdf"
+
+    
+
+
+  
+
