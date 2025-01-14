@@ -1,54 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Teaching</title>
-  <link rel="stylesheet" href="assets/css/main.css"> <!-- Adjust path to your CSS -->
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="cv.html">CV</a></li>
-        <li><a href="research.html">Research</a></li>
-        <li><a href="teaching.html" class="active">Teaching</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main class="container">
-    <section class="section teaching-section">
-      <h2 class="section-title">Teaching Experience</h2>
-      <p>{{ site.data.data.teaching.description }}</p>
-      
-      <div class="teaching-experiences">
-        <h3>Teaching Contributions</h3>
-        <ul>
-          {% for experience in site.data.data.teaching.experiences %}
-          <li>
-            <strong>{{ experience.course }}</strong> ({{ experience.term }}) - <em>{{ experience.role }}</em><br>
-            {{ experience.details }}
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-      
-      <div class="teaching-materials">
-        <h3>Teaching Materials</h3>
-        <ul>
-          {% for material in site.data.data.teaching.materials %}
-          <li>
-            <a href="{{ material.file }}" target="_blank">{{ material.title }}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; {{ site.author.name }} {{ site.time | date: '%Y' }}</p>
-  </footer>
-</body>
-</html>
+---
+layout: default
+title: Teaching
+---
+
+<section class="section teaching-section">
+  <h2 class="section-title">Teaching Experience</h2>
+  <p>{{ site.data.data.teaching.description }}</p>
+  
+  <div class="teaching-experiences">
+    <h3>Teaching Contributions</h3>
+    <ul>
+      {% for experience in site.data.data.teaching.experiences %}
+      <li>
+        <strong>{{ experience.course }}</strong> ({{ experience.term }}) - <em>{{ experience.role }}</em><br>
+        {{ experience.details }}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  
+  <div class="teaching-materials">
+    <h3>Teaching Materials</h3>
+    <ul>
+      {% for material in site.data.data.teaching.materials %}
+      <li>
+        <a href="{{ material.file }}" target="_blank">{{ material.title }}</a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
