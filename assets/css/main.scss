@@ -41,7 +41,7 @@ $sidebar-order: 2;
 }
 
 .teaching-section p:first-of-type {
-  font-size: 1.2rem; /* Adjust font size as needed */
+  font-size: 1.3rem; /* Adjust font size as needed */
   line-height: 1.5; /* Line spacing for readability */
   margin-bottom: 15px; /* Space below the paragraph */
 }
@@ -66,7 +66,7 @@ $sidebar-order: 2;
 .teaching-assistant p:first-of-type,
 .teaching-statement p:first-of-type,
 .teaching-evaluation p:first-of-type {
-  font-size: 1.2rem; /* Smaller size for introductory descriptions */
+  font-size: 1.3rem; /* Smaller size for introductory descriptions */
   line-height: 1.5;
   margin-bottom: 15px;
 }
@@ -87,3 +87,27 @@ $sidebar-order: 2;
   margin-left: 20px; /* Slight indentation */
   padding-left: 0;
 }
+
+// Button Styling for Download Links
+.teaching-evaluation .button,
+.teaching-statement .button {
+  display: inline-block;
+  padding: 10px 20px; /* Padding inside the button */
+  font-size: 1rem; /* Font size of button text */
+  font-weight: bold; /* Bold text for emphasis */
+  color: #ffffff; /* White text */
+  background-color: #007bff; /* Blue background */
+  border: 2px solid #007bff; /* Blue border */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  text-align: center; /* Center text */
+  margin-top: 10px; /* Space above the button */
+  transition: background-color 0.3s, color 0.3s; /* Smooth hover effect */
+}
+
+.teaching-evaluation .button:hover,
+.teaching-statement .button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  color: #ffffff; /* Keep text white */
+}
+
