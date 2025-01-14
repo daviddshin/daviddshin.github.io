@@ -40,6 +40,12 @@ $sidebar-order: 2;
   margin-bottom: 25px;
 }
 
+.teaching-section p:first-of-type {
+  font-size: 1.2rem; /* Adjust font size as needed */
+  line-height: 1.5; /* Line spacing for readability */
+  margin-bottom: 15px; /* Space below the paragraph */
+}
+
 // Subsection Titles (e.g., "Teaching Assistant", "Teaching Evaluation")
 .teaching-assistant h2,
 .teaching-statement h2,
