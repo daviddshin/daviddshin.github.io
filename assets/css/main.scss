@@ -50,38 +50,34 @@ $sidebar-order: 2;
 }
 
 .teaching-evaluation h3 {
-  font-size: 1.5rem; /* Smaller font for feedback categories */
+  font-size: 1.4rem; /* Smaller font for feedback categories */
   font-weight: bold;
   margin-top: 15px;
   margin-bottom: 15px; /* Balanced spacing */
 }
 
-// Larger Text for Descriptions and Summaries
-.teaching-assistant p,
-.teaching-statement p,
-.teaching-evaluation p {
-  font-size: 1.2rem; /* Larger font for description text */
-  line-height: 1.6;  /* Adequate spacing for readability */
+// Smaller Font for Introductory Description
+.teaching-assistant p:first-of-type,
+.teaching-statement p:first-of-type,
+.teaching-evaluation p:first-of-type {
+  font-size: 1rem; /* Smaller size for introductory descriptions */
+  line-height: 1.5;
   margin-bottom: 15px;
 }
 
+// Larger Text for Key Descriptions and Feedback
 .teaching-assistant ul li,
+.teaching-statement p:not(:first-of-type),
 .teaching-evaluation ul li {
-  font-size: 1.2rem; /* Slightly larger font for list items */
+  font-size: 1.2rem; /* Slightly larger font for important text */
   line-height: 1.6;  /* Balanced spacing between lines */
   margin-bottom: 10px; /* Smaller spacing between list items */
 }
 
-// Bullet Points with Custom Style
+// Bullet Points with Default Style
 .teaching-assistant ul,
 .teaching-evaluation ul {
   list-style-type: disc; /* Standard bullet style */
   margin-left: 20px; /* Slight indentation */
   padding-left: 0;
-}
-
-// Highlight Quotes with Color (Keep Default Double Quotes)
-.teaching-evaluation ul li {
-  color: #007bff; /* Make quotes blue */
-  font-style: italic; /* Add emphasis with italics */
 }
