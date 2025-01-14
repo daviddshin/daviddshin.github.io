@@ -2,7 +2,6 @@
 <div class="sidebar-wrapper">
 
   <div class="profile-container">
-
     {% if sidebar.avatar %}
     <img class="avatar" src="{{ site.baseurl }}/assets/images/{{ sidebar.avatar }}" alt="profile picture" />
     {% endif %}
@@ -14,8 +13,18 @@
     {% if sidebar.tagline %}
     <h3 class="tagline">{{ sidebar.tagline }}</h3>
     {% endif %}
-
   </div><!--//profile-container-->
+
+  <!-- Add Navigation Menu -->
+  <nav class="sidebar-nav">
+    <ul>
+      <li><a href="{{ site.baseurl }}/index.html">Home</a></li>
+      <li><a href="{{ site.baseurl }}/cv.html">CV</a></li>
+      <li><a href="{{ site.baseurl }}/research.html">Research</a></li>
+      <li><a href="{{ site.baseurl }}/teaching.html">Teaching</a></li>
+      <li><a href="{{ site.baseurl }}/contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
   {% include contact.html %}
 
@@ -23,10 +32,7 @@
     {% include education.html %}
   {% endif %}
 
-
   {% include language.html %}
   {% include interests.html %}
   {% include references.html %}
-
-
 </div><!--//sidebar-wrapper-->
