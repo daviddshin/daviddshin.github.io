@@ -35,48 +35,49 @@ $sidebar-order: 2;
 
 // General Section Title Styling
 .section-title {
-  font-size: 2rem;
+  font-size: 2.4rem; /* Make the main title larger */
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 // Styling for Teaching Page Sections
 .teaching-assistant h2,
 .teaching-statement h2,
 .teaching-evaluation h2 {
-  font-size: 1.8rem;
+  font-size: 1.8rem; /* Keep these titles smaller than the main section title */
   font-weight: bold;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
-.teaching-evaluation h3,
-.teaching-statement h3 {
-  font-size: 1.5rem;
+// Subsection Titles (e.g., "Clarity and Intuition")
+.teaching-evaluation h3 {
+  font-size: 1.4rem; /* Reduce subsection title size */
   font-weight: bold;
   margin-top: 15px;
 }
 
-.teaching-evaluation ul,
-.teaching-statement ul,
-.teaching-assistant ul {
-  list-style-type: disc;
-  margin-left: 20px;
-  font-size: 1rem;
-  line-height: 1.6;
+// Paragraph and Feedback Text
+.teaching-evaluation p,
+.teaching-statement p,
+.teaching-evaluation ul li {
+  font-size: 1.1rem; /* Increase font size for better readability */
+  line-height: 1.8;  /* Adjust spacing for readability */
+  margin-bottom: 10px;
 }
 
-.teaching-evaluation p,
-.teaching-statement p {
-  font-size: 1rem;
-  line-height: 1.6;
-  margin-bottom: 15px;
+// Lists in Teaching Sections
+.teaching-assistant ul,
+.teaching-evaluation ul {
+  list-style-type: disc;
+  margin-left: 25px;
 }
 
 // Button Styling
 .teaching-evaluation .button,
 .teaching-statement .button {
   display: inline-block;
-  padding: 10px 15px;
+  padding: 10px 20px;
+  font-size: 1rem; /* Match button text size with paragraph text */
   background-color: #007bff;
   color: #fff;
   text-decoration: none;
