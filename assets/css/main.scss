@@ -40,7 +40,7 @@ $sidebar-order: 2;
   margin-bottom: 25px;
 }
 
-// Subsection Titles (e.g., "Clarity and Intuition")
+// Subsection Titles (e.g., "Teaching Assistant", "Teaching Evaluation")
 .teaching-assistant h2,
 .teaching-statement h2,
 .teaching-evaluation h2 {
@@ -80,35 +80,8 @@ $sidebar-order: 2;
   padding-left: 0;
 }
 
-// Highlighted Quotes or Feedback
-.teaching-evaluation ul li::before {
-  content: "“"; /* Open quote mark */
-  font-size: 1.5rem; /* Slightly larger size */
-  margin-right: 5px;
-  color: #007bff; /* Blue highlight */
+// Highlight Quotes with Color (Keep Default Double Quotes)
+.teaching-evaluation ul li {
+  color: #007bff; /* Make quotes blue */
+  font-style: italic; /* Add emphasis with italics */
 }
-.teaching-evaluation ul li::after {
-  content: "”"; /* Close quote mark */
-  font-size: 1.5rem;
-  margin-left: 5px;
-  color: #007bff;
-}
-
-// Button Styling
-.teaching-evaluation .button,
-.teaching-statement .button {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 1rem; /* Match button text size with paragraph text */
-  background-color: #007bff;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 10px;
-}
-
-.teaching-evaluation .button:hover,
-.teaching-statement .button:hover {
-  background-color: #0056b3;
-}
-
