@@ -7,26 +7,52 @@ title: Teaching
   <h1 class="section-title">Teaching Experience</h1>
   <p>{{ site.data.data.teaching.description }}</p>
   
-  <div class="teaching-experiences">
-    <h3>Teaching Contributions</h3>
+  <div class="teaching-assistant">
+    <h3>Teaching Assistant</h3>
     <ul>
       {% for experience in site.data.data.teaching.experiences %}
       <li>
         <strong>{{ experience.course }}</strong> ({{ experience.term }}) - <em>{{ experience.role }}</em><br>
-        {{ experience.details }}
+        Taught at Duke University. {{ experience.details }}
       </li>
       {% endfor %}
     </ul>
   </div>
   
-  <div class="teaching-materials">
-    <h3>Teaching Materials</h3>
-    <ul>
-      {% for material in site.data.data.teaching.materials %}
-      <li>
-        <a href="{{ material.file }}" target="_blank">{{ material.title }}</a>
-      </li>
-      {% endfor %}
-    </ul>
+  <div class="teaching-statement">
+    <h3>Teaching Statement</h3>
+    <p id="teachingStatementPreview">
+      My teaching philosophy emphasizes real-world applications of economics, effective communication, and tailored support for diverse learners. Click below to expand the full statement.
+    </p>
+    <button onclick="toggleContent('teachingStatementContent')">Read Full Statement</button>
+    <p id="teachingStatementContent" style="display: none;">
+      As an educator in international trade, macroeconomics, and environmental economics, my primary goal is to encourage students to become active learners who are intellectually curious about real-world problems. I strive to equip students from diverse backgrounds with tools to approach these problems using logical reasoning, empirical evidence, and sound methodology. My experience as a TA at Duke University and my participation in the Certificate in College Teaching program have been instrumental in shaping my teaching practices.
+    </p>
+  </div>
+  
+  <div class="teaching-evaluation">
+    <h3>Teaching Evaluation</h3>
+    <p>
+      Feedback from students highlights my ability to clarify complex concepts, provide useful intuition, and create an engaging learning environment. Students consistently praised my patience, clarity, and dedication to their learning.
+    </p>
+    <button onclick="toggleContent('evaluationSummaryContent')">Read More</button>
+    <p id="evaluationSummaryContent" style="display: none;">
+      Specific comments include:
+      - "David is very smart on the solving techniques of some problems and can provide useful intuition."
+      - "David did a great job explaining the key details and ideas behind the problem sets."
+      - "Super patient and helpful. Clarified my understanding for course material."
+    </p>
+    <a href="/assets/files/ShinDavid_TeachingEvaluation.pdf" target="_blank" class="button">Download Full Evaluation</a>
   </div>
 </section>
+
+<script>
+  function toggleContent(id) {
+    const content = document.getElementById(id);
+    if (content.style.display === "none") {
+      content.style.display = "block";
+    } else {
+      content.style.display = "none";
+    }
+  }
+</script>
