@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teaching</title>
+  <link rel="stylesheet" href="assets/css/main.css"> <!-- Adjust path to your CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <!-- Add other navigation links if necessary -->
+      </ul>
+    </nav>
+  </header>
+  <main class="container">
+    <section class="section teaching-section">
+      <h2 class="section-title">
+        <span class="fa-stack fa-xs">
+          <i class="fas fa-circle fa-stack-2x"></i>
+          <i class="fas fa-chalkboard-teacher fa-stack-1x fa-inverse"></i>
+        </span>
+        Teaching
+      </h2>
+      <div class="item">
+        <h3 class="teaching-title">{{ site.data.data.teaching.title }}</h3>
+        <div class="details">
+          <p>{{ site.data.data.teaching.description }}</p>
+          {% if site.data.data.teaching.courses %}
+          <ul>
+            {% for course in site.data.data.teaching.courses %}
+            <li><strong>{{ course.name }}</strong>: {{ course.description }}</li>
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; {{ site.author.name }} {{ site.time | date: '%Y' }}</p>
+  </footer>
+</body>
+</html>
