@@ -35,12 +35,12 @@ $sidebar-order: 2;
 
 // General Section Title Styling
 .section-title {
-  font-size: 2.4rem; /* Make the main title larger */
+  font-size: 2.4rem; /* Main section title (e.g., "Teaching") */
   font-weight: bold;
   margin-bottom: 25px;
 }
 
-// Styling for Teaching Page Sections
+// Subsection Titles (e.g., "Teaching Assistant", "Teaching Evaluation")
 .teaching-assistant h2,
 .teaching-statement h2,
 .teaching-evaluation h2 {
@@ -49,43 +49,34 @@ $sidebar-order: 2;
   margin-bottom: 20px;
 }
 
-// Subsection Titles (e.g., "Clarity and Intuition")
-.teaching-evaluation h3 {
-  font-size: 1.4rem; /* Reduce subsection title size */
-  font-weight: bold;
-  margin-top: 15px;
-}
-
-// Paragraph and Feedback Text
-.teaching-evaluation p,
+// Subsection Descriptions (e.g., "My teaching statement...") 
+.teaching-assistant p,
 .teaching-statement p,
-.teaching-evaluation ul li {
-  font-size: 1.1rem; /* Increase font size for better readability */
-  line-height: 1.8;  /* Adjust spacing for readability */
-  margin-bottom: 10px;
+.teaching-evaluation p {
+  font-size: 1.2rem; /* Slightly larger for better readability */
+  line-height: 1.6;
+  margin-bottom: 15px;
 }
 
-// Lists in Teaching Sections
+// Bullet Points with Larger Spacing
 .teaching-assistant ul,
 .teaching-evaluation ul {
-  list-style-type: disc;
-  margin-left: 25px;
+  list-style-type: none; /* Remove default bullets */
+  margin-left: 0;
+  padding-left: 20px; /* Indentation for custom bullets */
+  margin-bottom: 25px; /* Add larger spacing between bullet points */
 }
 
-// Button Styling
-.teaching-evaluation .button,
-.teaching-statement .button {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 1rem; /* Match button text size with paragraph text */
-  background-color: #007bff;
-  color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
-  margin-top: 10px;
+.teaching-assistant ul li::before {
+  content: "• "; /* Add custom bullet */
+  color: #007bff;
+  font-size: 1.4rem; /* Adjust bullet size */
+  margin-right: 5px;
 }
 
-.teaching-evaluation .button:hover,
-.teaching-statement .button:hover {
-  background-color: #0056b3;
+.teaching-assistant ul li,
+.teaching-evaluation ul li {
+  font-size: 1.1rem; /* Keep descriptions smaller */
+  line-height: 1.8; /* Add vertical spacing for readability */
+  margin-bottom: 15px; /* Spacing between bullet points */
 }
