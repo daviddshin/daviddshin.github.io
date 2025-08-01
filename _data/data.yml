@@ -5,7 +5,7 @@ sidebar:
 
   # Profile information
   name: David D. Shin
-  tagline: PhD Candidate in Economics Duke University
+  tagline: Assistant Professor of Economics University of Tennessee, Knoxville
   avatar: profile.png  # Place this image in '/assets/images/'
 
   # Sidebar links
@@ -46,7 +46,7 @@ education:
   info:
     - degree: Ph.D. in Economics
       university: Duke University
-      time: (Expected) 2025
+      time: 2025
     - degree: MA in Economics
       university: Duke University
       time: 2022
@@ -109,15 +109,13 @@ computational-skills:
       level: Advanced
 
 about_me:
-  content: "I am a PhD candidate in Economics at Duke University. I work on topics related to International Trade, Environmental Economics, and Macroeconomics.<br><br> My research examines the dynamic adjustments of capital and labor in response to climate policy changes and their impacts on the global economy and environment. Other topics of interest include the drivers of persistent trade imbalances, trade fragmentation in commodity markets, and the welfare impacts of economic frictions and policy interventions."
-
-job_market_paper:
-  title: "Climate Policies under Dynamic Factor Adjustment"
-  summary: "This paper develops and estimates a dynamic general equilibrium model of the global economy to investigate how imperfect and gradual adjustments of capital and labor across sectors affect the effectiveness of climate policies in reducing global emissions. The model's estimates indicate that both capital assets and workers exhibit low responsiveness to changes in climate policies, limiting the policies' ability to permanently and swiftly shift capital and labor out of the sector that extracts and processes raw fossil fuels. I demonstrate that a counterfactual subsidy implemented by China on non-fossil fuel energy sources would boost consumption and investment in the targeted sector but may inadvertently raise global emissions due to increased aggregate output and investment. Imperfect factor mobility amplifies this effect by limiting the reallocation of capital and labor away from the sector that produces fossil fuels. My findings underscore the need to (i) combine a subsidy on non-fossil fuel energy sources with a carbon tax and (ii) improve capital and labor mobility to both reduce global emissions and enhance aggregate consumption."
-  pdf: '/assets/files/JMP_DDS.pdf'  # Path to the PDF
-  Presentation: "Federal Reserve Bank of New York 2024; Federal Reserve Bank of St. Louis 2024; Duke University 2024; Economics Graduate Student Conference (WUSTL) 2024"
+  content: "I am an Assistant Professor of Economics at the University of Tennessee, Knoxville.<br><br> My research focuses on International Economics, Macroeconomics, and Environmental Economics. In my research, I study how capital and labor adjust dynamically in response to climate policies and how these adjustments shape global economic and environmental outcomes. I also examine the causes of persistent trade imbalances, the effects of commodity trade fragmentation, and the welfare implications of economic frictions and policy interventions.<br><br> You can find my <a href='/assets/files/cv.pdf'>CV</a> and <a href='https://scholar.google.com/citations?user=KiTGZocAAAAJ'>Google Scholar</a> profile. <br><br> Feel free to reach me at: dshin5 (at) utk (dot) edu."
   
 working_papers:
+  - title: "Climate Policies under Dynamic Factor Adjustment"
+    summary: "This paper develops and estimates a dynamic general equilibrium model of the global economy to investigate how imperfect and gradual adjustments of capital and labor across sectors affect the effectiveness of climate policies in reducing global emissions. The model's estimates indicate that both capital assets and workers exhibit low responsiveness to changes in climate policies, limiting the policies' ability to permanently and swiftly shift capital and labor out of the sector that extracts and processes raw fossil fuels. I demonstrate that a counterfactual subsidy implemented by China on non-fossil fuel energy sources would boost consumption and investment in the targeted sector but may inadvertently raise global emissions due to increased aggregate output and investment. Imperfect factor mobility amplifies this effect by limiting the reallocation of capital and labor away from the sector that produces fossil fuels. My findings underscore the need to (i) combine a subsidy on non-fossil fuel energy sources with a carbon tax and (ii) improve capital and labor mobility to both reduce global emissions and enhance aggregate consumption."
+    pdf: '/assets/files/JMP_DDS.pdf'  # Path to the PDF
+    Presentation: "Federal Reserve Bank of New York 2024; Federal Reserve Bank of St. Louis 2024; Duke University 2024; Economics Graduate Student Conference (WUSTL) 2024"
   - title: "Understanding Trade Imbalances"
     summary: "Are persistent trade imbalances signs of distortions? This paper investigates the drivers of persistent trade imbalances in eight advanced and emerging economies from 2000 to 2014. Using a dynamic general equilibrium framework, I rationalize the observed imbalances as outcomes of six key forces commonly discussed in the literature: (i) productivity growth, (ii) trade costs, (iii) financial frictions, (iv) life expectancy, (v) population growth, and (vi) economy-specific intertemporal distortions. The findings highlight that economy-specific intertemporal distortions, particularly in the United States, are the most significant driver of global imbalances. Additionally, changes in trade costs between China and its trading partners---the China shock---had a substantial impact on the trade imbalances of both China and the U.S. The results suggest that, without the China shock, the U.S. would have sustained persistent trade surpluses, while China would have experienced persistent deficits, emphasizing the importance of bilateral trade frictions in understanding global imbalances."
     pdf: '/assets/files/TradeImbalances_DDS.pdf'  # Path to the PDF
