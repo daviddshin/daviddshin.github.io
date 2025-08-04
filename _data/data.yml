@@ -55,6 +55,13 @@ education:
       university: University of Michigan - Ann Arbor
       time: 2017
 
+employment:
+  title: "Employment"
+  experiences:
+    - title: "Assistant Professor of Economics"
+      institution: "University of Tennessee, Knoxville"
+      time: "August 2025 – Present"
+
 experiences:
   title: Experiences
   info:
