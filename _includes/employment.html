@@ -1,17 +1,54 @@
-<section class="section employment-section">
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ site.data.data.employment.title }}
-  </h2>
+{% assign employment = site.data.data.employment %}
+{% if employment %}
+  {% if site.data.data.sidebar.employment %}
+  <div class="employment-container container-block">
 
-  {% for job in site.data.data.employment.experiences %}
-  <div class="item">
-    <h3 class="job-title">{{ job.title }}</h3>
-    <div class="meta">{{ job.institution }}</div>
-    <div class="time">{{ job.time }}</div>
-  </div>
-  {% endfor %}
-</section>
+    <h2 class="container-block-title">
+      {{ employment.title }}
+    </h2>
+
+    {% for job in employment.experiences %}
+    <div class="item">
+      <h4 class="degree">{{ job.title }}</h4>
+      <h5 class="meta">{{ job.institution }}</h5>
+      <div class="time">{{ job.time }}</div>
+    </div><!--//item-->
+    {% endfor %}
+
+  </div><!--//employment-container-->
+  {% else %}
+  <section class="section employment-section">
+
+    <h2 class="section-title">
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-briefcase fa-stack-1x fa-inverse"></i>
+      </span>
+      {{ employment.title }}
+    </h2>
+
+    {% for job in employment.experiences %}
+    <div class="item">
+
+      <div class="meta">
+
+        <div class="upper-row">
+          <h3 class="degree">{{ job.title }}</h3>
+          <div class="time">{{ job.time }}</div>
+        </div><!--//upper-row-->
+
+        <div class="university">{{ job.institution }}</div>
+      </div><!--//meta-->
+
+      {% if job.details %}
+      <div class="details">
+        {{ job.details | markdownify }}
+      </div><!--//details-->
+      {% endif %}
+
+    </div><!--//item-->
+    {% endfor %}
+
+  </section><!--//employment-section-->
+  {% endif %}
+{% endif %}
