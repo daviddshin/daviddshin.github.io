@@ -8,7 +8,12 @@
   </h2>
   {% for paper in site.data.data.working_papers %}
   <div class="item">
-    <h3 class="job-title">{{ paper.title }}</h3>
+    <h3 class="job-title">
+      {{ paper.title }}
+      {% if paper.date %}
+        <span class="text-muted">({{ paper.date }})</span>
+      {% endif %}
+    </h3>
     <div class="details">
       <a href="#" onclick="toggleAbstract('wpAbstract{{ forloop.index }}'); return false;">[Abstract]</a>
       <p id="wpAbstract{{ forloop.index }}" style="display:none;">
