@@ -41,6 +41,12 @@ title: Teaching
     .teaching-section .teaching-statement button {
       margin: 0.75rem 0 0.25rem 0;
     }
+    /* Force all section subtitles to the same size */
+    .teaching-section .teaching-subtitle {
+      font-size: 1.6rem;
+      font-weight: 600;
+      line-height: 1.25;
+    }
   </style>
 
   <!-- Instructor Section -->
@@ -50,7 +56,6 @@ title: Teaching
     {% for course in site.data.data.teaching.instructor %}
     <li>
       <strong>{{ course.course }}</strong> ({{ course.term }})<br>
-      {{ course.institution }}<br>
       {{ course.role }}
     </li>
     {% endfor %}
