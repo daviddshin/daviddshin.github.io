@@ -124,12 +124,12 @@ working_papers:
     date: "November 2024"
     summary: "This paper develops and estimates a dynamic general equilibrium model of the global economy to investigate how imperfect and gradual adjustments of capital and labor across sectors affect the effectiveness of climate policies in reducing global emissions. The model's estimates indicate that both capital assets and workers exhibit low responsiveness to changes in climate policies, limiting the policies' ability to permanently and swiftly shift capital and labor out of the sector that extracts and processes raw fossil fuels. I demonstrate that a counterfactual subsidy implemented by China on non-fossil fuel energy sources would boost consumption and investment in the targeted sector but may inadvertently raise global emissions due to increased aggregate output and investment. Imperfect factor mobility amplifies this effect by limiting the reallocation of capital and labor away from the sector that produces fossil fuels. My findings underscore the need to (i) combine a subsidy on non-fossil fuel energy sources with a carbon tax and (ii) improve capital and labor mobility to both reduce global emissions and enhance aggregate consumption."
     pdf: '/assets/files/JMP_DDS.pdf'  # Path to the PDF
-    Presentation: "Federal Reserve Bank of New York 2024; Federal Reserve Bank of St. Louis 2024; Duke University 2024; Economics Graduate Student Conference (WUSTL) 2024; Federal Reserve Board 2025; U.S. Government Accountability Office 2025; Penn Wharton Budget Model 2025; Korea Development Institute 2025; Korea Institute for International Economic Policy 2025; Korea Institute of Public Finance 2025; University of Tennessee, Knoxville 2025"
+    Presentation: "Federal Reserve Bank of New York 2024; Federal Reserve Bank of St. Louis 2024; Duke University 2024; Economics Graduate Student Conference (WUSTL) 2024; Federal Reserve Board 2025; U.S. Government Accountability Office 2025; Penn Wharton Budget Model 2025; Korea Development Institute 2025; Korea Institute for International Economic Policy 2025; Korea Institute of Public Finance 2025; University of Tennessee, Knoxville 2025; World Congress 2025; Midwest International Trade & Theory Conference (Penn State) 2025"
   - title: "Decomposing Persistent Trade Imbalances"
     date: "November 2025"
     summary: "This paper investigates the drivers of persistent trade imbalances in seven advanced and emerging economies from 2000 to 2014. Using a dynamic general equilibrium framework, I rationalize the observed imbalances as outcomes of four key forces commonly discussed in the literature: (i) demographic factors such as life expectancy, (ii) life cycle factors such as voluntary bequest motives, (iii) institutional and policy factors such as financial frictions and trade costs, and (iv) macroeconomic and residual factors such as productivity growth. The decomposition analysis based on the calibrated model shows that, for the United States and the United Kingdom, weaker voluntary bequest motives and lower financial intermediation costs are key deficit-inducing factors, while faster productivity growth explains persistent deficits in Mexico and India. For China, Germany, and Korea, stronger bequest motives, longer life expectancy, and steeper labor income profiles toward the end of the life cycle are the main drivers of their persistent surpluses. Finally, I find that China’s accession to the World Trade Organization in 2001 reduced the trade balance of the United States by an average of 0.08 percentage points of GDP from 2000 to 2014."
     pdf: '/assets/files/TradeImbalances_DDS.pdf'  # Path to the PDF
-    Presentation: "Duke University 2023; Federal Reserve Bank of Richmond 2023; International Monetary Fund 2023; Economics Graduate Student Conference (WUSTL) 2023; Midwest International Trade & Theory Conference (Georgia Tech) 2023; Mid-Atlantic International Trade Workshop (Federal Reserve Board) 2024"
+    Presentation: "Duke University 2023; Federal Reserve Bank of Richmond 2023; International Monetary Fund 2023; Economics Graduate Student Conference (WUSTL) 2023; Midwest International Trade & Theory Conference (Georgia Tech) 2023; Mid-Atlantic International Trade Workshop (Federal Reserve Board) 2024; KATIS International Conference 2025; EIIT (UTennessee) 2025"
 
 
 works_in_progress:
@@ -140,12 +140,12 @@ works_in_progress:
       - name: "Alexandre Sollaci"
         url: "https://sites.google.com/view/alexandresollaci/home"
     summary: "Amid escalating tensions between the US and China, coupled with the conflict in Ukraine, concerns over the trade fragmentation of commodities intensified. This paper presents a novel framework to evaluate the potential welfare losses resulting from such fragmentation, with a focus on the unique characteristics of commodities, including their high geographical concentration, upstream nature, and limited substitutability.  Using a quantitative general equilibrium model incorporating international trade, firm heterogeneity, variable markups, inter-sectoral linkages, and unique commodity characteristics, we assess the welfare implications of hypothetical persistent disruptions in commodity trade between hypothetical US and China blocs. The model delivers five distinct welfare costs arising from commodity trade fragmentation: (i) declining foreign demand, (ii) increased imported input costs, (iii) competition-driven productivity reduction, (iv) a decline in the number of upstream suppliers, and (v) the increased market power of regional suppliers. We find that the reduction in upstream suppliers and the concurrent rise in regional market power significantly amplify the welfare costs associated with commodity trade fragmentation."
-    Presentation: "International Monetary Fund 2023; Duke University 2023"
+    Presentation: "International Monetary Fund 2023; Duke University 2023; Duke University 2025"
 
 teaching:
   title: "Teaching Experience"
   description: >
-    My teaching experience includes assisting in PhD-level courses and providing tailored support to students to enhance their learning. Below are details about my teaching experience, philosophy, and evaluations.
+    My teaching experience includes teaching an undergraduate-level macroeconomics course, assisting in PhD-level courses, and providing tailored support to students to enhance their learning. Below are details about my teaching experience, philosophy, and evaluations.
   experiences:
     - course: "Macroeconomic Analysis I (PhD, Duke University)"
       term: "Fall 2020"
@@ -158,10 +158,14 @@ teaching:
       details: >
         Assisted Professors Andrea Lanteri and Francesco Bianchi. Led problem-solving sessions, held office hours, and graded problem sets and exams.
     - course: "International Trade (PhD, Duke University)"
-      term: "Spring 2024, Fall 2025"
+      term: "Fall 2024, Spring 2025"
       role: ""
       details: >
         Assisted Professor Rafael Dix-Carneiro in grading problem sets and exams.
+    - course: "Intermediate Macroeconomics (Undergraduate, University of Tennessee, Knoxville)"
+      term: "Fall 2025"
+      role: "Instructor"
+      details: ""
   materials:
     - title: "Teaching Statement"
       file: "/assets/files/ShinDavid_TeachingStatement.pdf"
