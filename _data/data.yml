@@ -162,10 +162,6 @@ teaching:
       role: ""
       details: >
         Assisted Professor Rafael Dix-Carneiro in grading problem sets and exams.
-    - course: "Intermediate Macroeconomics (Undergraduate, University of Tennessee, Knoxville)"
-      term: "Fall 2025"
-      role: "Instructor"
-      details: ""
   materials:
     - title: "Teaching Statement"
       file: "/assets/files/ShinDavid_TeachingStatement.pdf"
