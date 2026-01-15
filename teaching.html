@@ -44,20 +44,22 @@ title: Teaching
   </style>
 
   <!-- Instructor Section -->
-  <div class="teaching-block instructor">
-    <h3>Instructor</h3>
-    <ul>
-      <li>
-        <strong>Intermediate Macroeconomics</strong> (Fall 2025)<br>
-        University of Tennessee, Knoxville<br>
-        Instructor of Record
-      </li>
-    </ul>
-  </div>
+<div class="teaching-block instructor">
+  <h2>Instructor</h2>
+  <ul>
+    {% for course in site.data.data.teaching.instructor %}
+    <li>
+      <strong>{{ course.course }}</strong> ({{ course.term }})<br>
+      {{ course.institution }}<br>
+      {{ course.role }}
+    </li>
+    {% endfor %}
+  </ul>
+</div>
 
   <!-- Teaching Assistant Section -->
   <div class="teaching-block teaching-assistant">
-    <h3>Teaching Assistant</h3>
+    <h2>Teaching Assistant</h2>
     <ul>
       {% for experience in site.data.data.teaching.experiences %}
       <li>
