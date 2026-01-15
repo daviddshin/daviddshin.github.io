@@ -146,6 +146,13 @@ teaching:
   title: "Teaching Experience"
   description: >
     My teaching experience includes teaching an undergraduate-level macroeconomics course, assisting in PhD-level courses, and providing tailored support to students to enhance their learning. Below are details about my teaching experience, philosophy, and evaluations.
+
+  instructor:
+    - course: "Intermediate Macroeconomics"
+      term: "Fall 2025"
+      institution: "University of Tennessee, Knoxville"
+      role: "Instructor of Record"
+      
   experiences:
     - course: "Macroeconomic Analysis I (PhD, Duke University)"
       term: "Fall 2020"
