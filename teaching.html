@@ -6,9 +6,57 @@ title: Teaching
 <section class="section teaching-section">
   <h1 class="section-title">Teaching</h1>
   <p>{{ site.data.data.teaching.description }}</p>
-  
+
+  <!-- Inline styles to normalize spacing on this page only -->
+  <style>
+    .teaching-section .teaching-block {
+      margin-top: 2.25rem;
+    }
+
+    .teaching-section .teaching-block:first-of-type {
+      margin-top: 1.25rem;
+    }
+
+    .teaching-section .teaching-block h2 {
+      margin: 0 0 0.75rem 0;
+    }
+
+    .teaching-section .teaching-block h3 {
+      margin: 1.25rem 0 0.5rem 0;
+    }
+
+    .teaching-section .teaching-block p {
+      margin: 0.75rem 0;
+    }
+
+    .teaching-section .teaching-block ul {
+      margin: 0.25rem 0 0 1.25rem;
+      padding: 0;
+    }
+
+    .teaching-section .teaching-block li {
+      margin: 0.6rem 0;
+    }
+
+    .teaching-section .teaching-statement button {
+      margin: 0.75rem 0 0.25rem 0;
+    }
+  </style>
+
+  <!-- Instructor Section -->
+  <div class="teaching-block instructor">
+    <h2>Instructor</h2>
+    <ul>
+      <li>
+        <strong>ECON 313: Intermediate Macroeconomics</strong> (Spring 2026)<br>
+        University of Tennessee, Knoxville<br>
+        Instructor of Record
+      </li>
+    </ul>
+  </div>
+
   <!-- Teaching Assistant Section -->
-  <div class="teaching-assistant">
+  <div class="teaching-block teaching-assistant">
     <h2>Teaching Assistant</h2>
     <ul>
       {% for experience in site.data.data.teaching.experiences %}
@@ -19,15 +67,15 @@ title: Teaching
       {% endfor %}
     </ul>
   </div>
-  
+
   <!-- Teaching Statement Section -->
-  <div class="teaching-statement">
+  <div class="teaching-block teaching-statement">
     <h2>Teaching Statement</h2>
     <p id="teachingStatementPreview">
       My teaching statement summarizes my philosophy and approach to teaching economics. Click the button below to read the full statement.
     </p>
-    <button onclick="toggleContent('teachingStatementContent')">Read Full Statement</button>
-    <p id="teachingStatementContent" style="display: none;">
+    <button type="button" onclick="toggleContent('teachingStatementContent')">Read Full Statement</button>
+    <p id="teachingStatementContent" style="display: none; margin-top: 0.75rem;">
       As an educator in international trade, macroeconomics, and environmental economics, my primary goal is to encourage students to become active learners who are intellectually curious about real-world problems. I strive to equip students from diverse backgrounds and experiences with the tools necessary to approach these problems using logical reasoning, empirical evidence, and sound methodology.
       <br><br>
       <strong>Relevance and Real-World Application of Economics:</strong> The first step to meaningful and lasting learning is helping students recognize the value of the material beyond fulfilling a course requirement. When I served as a teaching assistant for PhD-level macroeconomics, I emphasized key concepts like general equilibrium, consumption smoothing, and income and substitution effects that are widely applicable across different fields. I also focused on techniques that are valuable beyond macroeconomics, such as first-order Taylor approximation and numerically solving structural models using MATLAB.
@@ -39,15 +87,14 @@ title: Teaching
       Having been a student for over a decade, I have experienced the transformative power of effective teaching, and I firmly believe it can change students’ academic trajectories. My goal as an educator is to equip students with the knowledge and skills necessary for success in both their careers and personal lives.
     </p>
   </div>
-  
+
   <!-- Teaching Evaluation Section -->
-  <div class="teaching-evaluation">
+  <div class="teaching-block teaching-evaluation">
     <h2>Teaching Evaluation</h2>
     <p>
       My teaching evaluations reflect positive feedback from students regarding my effectiveness as a teaching assistant for PhD-level courses. Below are categorized comments highlighting my strengths and areas of excellence.
     </p>
-    
-    <!-- Clarity and Intuition -->
+
     <h3>Clarity and Intuition</h3>
     <ul>
       <li>"David is very smart on the solving techniques of some problems and can provide useful intuition such as the Hamiltonian equation."</li>
@@ -55,7 +102,6 @@ title: Teaching
       <li>"David did a great job explaining the key details and ideas behind the course and problem sets."</li>
     </ul>
 
-    <!-- Preparation and Organization -->
     <h3>Preparation and Organization</h3>
     <ul>
       <li>"I liked how you prepared the slides for the problem sets and focused on the key ideas."</li>
@@ -63,7 +109,6 @@ title: Teaching
       <li>"David contributed greatly to our learning in the course and was well-prepared for the sessions."</li>
     </ul>
 
-    <!-- Patience and Approachability -->
     <h3>Patience and Approachability</h3>
     <ul>
       <li>"Super patient and helpful. Clarified my understanding of course material."</li>
@@ -71,14 +116,13 @@ title: Teaching
       <li>"David’s approachable demeanor and encouragement made learning more enjoyable and less intimidating."</li>
     </ul>
 
-    <!-- Effectiveness and Knowledge -->
     <h3>Effectiveness and Knowledge</h3>
     <ul>
       <li>"David was very knowledgeable and could almost always answer students' questions."</li>
       <li>"He was hardworking and dedicated."</li>
     </ul>
 
-    <p>
+    <p style="margin-top: 1rem;">
       For detailed feedback, download the full teaching evaluation report below:
     </p>
     <a href="/assets/files/ShinDavid_TeachingEvaluation.pdf" target="_blank" class="button">Download Full Evaluation</a>
@@ -88,10 +132,7 @@ title: Teaching
 <script>
   function toggleContent(id) {
     const content = document.getElementById(id);
-    if (content.style.display === "none") {
-      content.style.display = "block";
-    } else {
-      content.style.display = "none";
-    }
+    const isHidden = content.style.display === "none" || content.style.display === "";
+    content.style.display = isHidden ? "block" : "none";
   }
 </script>
