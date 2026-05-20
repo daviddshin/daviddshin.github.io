@@ -110,9 +110,9 @@ $sidebar-order: 2;
   background-color: #0056b3; /* Darker blue on hover */
   color: #ffffff; /* Keep text white */
 
-.working-papers-section .item,
-.works-in-progress-section .item {
-  margin-bottom: 2em;
+.working-papers-section .item + .item,
+.works-in-progress-section .item + .item {
+  margin-top: 2em;
 }
 }
 
