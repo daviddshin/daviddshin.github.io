@@ -111,7 +111,7 @@ $sidebar-order: 2;
   color: #ffffff; /* Keep text white */
 }
 
-.working-papers-section .item + .item,
-.works-in-progress-section .item + .item {
-  margin-top: 3em;
+.section.working-papers-section .item + .item,
+.section.works-in-progress-section .item + .item {
+  margin-top: 3em !important;
 }
