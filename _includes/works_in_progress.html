@@ -27,8 +27,10 @@
       <a href="{{ work.pdf }}" target="_blank">[Paper]</a>
       {% endif %}
       {% if work.Presentation %}
-      <br>
-      <p><strong>Presentation:</strong> {{ work.Presentation }}</p>
+      <a href="#" onclick="toggleAbstract('wipPresentation{{ forloop.index }}'); return false;">[Presentation]</a>
+      <p id="wipPresentation{{ forloop.index }}" style="display:none;">
+        {{ work.Presentation }}
+      </p>
       {% endif %}
     </div><!--//details-->
   </div><!--//item-->
