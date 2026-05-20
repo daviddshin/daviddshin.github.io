@@ -23,8 +23,10 @@
       <a href="{{ paper.pdf }}" target="_blank">[Paper]</a>
       {% endif %}
       {% if paper.Presentation %}
-      <br>
-      <p><strong>Presentation:</strong> {{ paper.Presentation }}</p>
+      <a href="#" onclick="toggleAbstract('wpPresentation{{ forloop.index }}'); return false;">[Presentation]</a>
+      <p id="wpPresentation{{ forloop.index }}" style="display:none;">
+        {{ paper.Presentation }}
+      </p>
       {% endif %}
     </div><!--//details-->
   </div><!--//item-->
