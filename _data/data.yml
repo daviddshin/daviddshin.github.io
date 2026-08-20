@@ -117,7 +117,7 @@ computational-skills:
       level: Advanced
 
 about_me:
-  content: "I am an Assistant Professor of Economics at the University of Tennessee, Knoxville.<br><br> My research focuses on International Economics, Macroeconomics, and Environmental Economics. In my research, I study how capital and labor adjust dynamically in response to climate policies and how these adjustments shape global economic and environmental outcomes. I also examine the causes of persistent trade imbalances, the effects of commodity trade fragmentation, and the welfare implications of economic frictions and policy interventions.<br><br> You can find my <a href='/assets/files/cv.pdf'>CV</a> and <a href='https://scholar.google.com/citations?user=KiTGZocAAAAJ'>Google Scholar</a> profile. <br><br> Feel free to reach me at: dshin5 (at) utk (dot) edu."
+  content: "I am an Assistant Professor of Economics at the University of Tennessee, Knoxville.<br><br> My research focuses on International Economics, Macroeconomics, and Environmental Economics. In my research, I study the economic and environmental impact of climate policies, the causes of persistent trade imbalances, the effects of commodity trade fragmentation, and the welfare implications of economic frictions and policy interventions.<br><br> You can find my <a href='/assets/files/cv.pdf'>CV</a> and <a href='https://scholar.google.com/citations?user=KiTGZocAAAAJ'>Google Scholar</a> profile. <br><br> Feel free to reach me at: dshin5 (at) utk (dot) edu."
   
 working_papers:
   - title: "Climate Policies under Dynamic Factor Adjustment"
@@ -140,7 +140,7 @@ works_in_progress:
       - name: "Alexandre Sollaci"
         url: "https://sites.google.com/view/alexandresollaci/home"
     summary: "We quantify the welfare effects of geopolitical fragmentation in commodity trade using a multi-country, multi-sector model with heterogeneous firms and variable markups, and isolate the contribution of the endogenous markup channel. Across fragmentation scenarios, economy-level welfare losses range from about 0.05 to 27 percent, with the largest losses arising when access to key commodity suppliers is cut off. Endogenous markup responses account for up to 92 percent of economy-level welfare changes, either amplifying losses or cushioning them. Decomposing the markup channel, we find that the largest amplification effects operate through downstream firms that use commodity inputs."
-    Presentation: "International Monetary Fund 2023; Duke University 2023; Duke University 2025"
+    Presentation: "International Monetary Fund 2023; Duke University 2023; Duke University 2025; KER International Conference; Asia Pacific Trade Seminars (HKUST); Asia Meeting of the Econometric Society, East & Southeast Asia (AMES-E/SE); Korea Institute for International Economic Policy (KIEP)"
 
 teaching:
   title: "Teaching Experience"
